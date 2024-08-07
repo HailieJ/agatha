@@ -3,45 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho</title>
+    <title>Programa Agrinho</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="hero">
         <div class="container">
-            <h1>Programa Agrinho</h1>
-            <nav>
-                <ul>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#objetivos">Objetivos</a></li>
-                    <li><a href="#atividades">Atividades</a></li>
-                </ul>
-            </nav>
+            <h1>Bem-vindo ao Programa Agrinho</h1>
+            <p>Promovendo a educação e a conscientização ambiental.</p>
+            <a href="#sobre" class="btn">Saiba Mais</a>
         </div>
     </header>
+
+    <nav class="navigation">
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#atividades">Atividades</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
 
     <main class="container">
         <section id="sobre">
             <h2>Sobre o Agrinho</h2>
             <p>
-                O Agrinho é um programa educacional desenvolvido pelo SENAR-PR que busca promover a cidadania e a consciência ambiental entre os estudantes de todo o Paraná. O programa envolve diversas atividades e concursos que incentivam a reflexão sobre temas importantes para a sociedade.
+                O Agrinho é um programa educacional do SENAR-PR que visa incentivar a cidadania e a consciência ambiental entre os estudantes do Paraná. Através de atividades práticas e teóricas, o programa aborda temas como sustentabilidade, saúde, e responsabilidade social.
             </p>
         </section>
 
         <section id="objetivos">
             <h2>Objetivos do Programa</h2>
             <ul>
-                <li>Promover a educação ambiental.</li>
-                <li>Incentivar a cidadania e a responsabilidade social.</li>
-                <li>Estimular a pesquisa e a reflexão sobre temas atuais.</li>
+                <li>Incentivar práticas sustentáveis.</li>
+                <li>Promover a cidadania e a ética.</li>
+                <li>Desenvolver o pensamento crítico sobre questões atuais.</li>
             </ul>
         </section>
 
         <section id="atividades">
             <h2>Atividades Desenvolvidas</h2>
             <p>
-                O Agrinho desenvolve diversas atividades, incluindo concursos de redação e desenho, palestras, e projetos escolares. Os estudantes são encorajados a explorar e pesquisar sobre temas como sustentabilidade, saúde, e cidadania.
+                O programa inclui concursos de redação e desenho, workshops, e projetos escolares que desafiam os alunos a explorar e refletir sobre temas de relevância global e local.
             </p>
+            <ul>
+                <li>Concursos de Redação</li>
+                <li>Desafios de Desenho</li>
+                <li>Workshops Educacionais</li>
+                <li>Projetos de Sustentabilidade</li>
+            </ul>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria de Imagens</h2>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/200x150" alt="Imagem 1">
+                <img src="https://via.placeholder.com/200x150" alt="Imagem 2">
+                <img src="https://via.placeholder.com/200x150" alt="Imagem 3">
+                <img src="https://via.placeholder.com/200x150" alt="Imagem 4">
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para mais informações sobre o Programa Agrinho.</p>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Enviar</button>
+            </form>
         </section>
     </main>
 
@@ -52,4 +90,3 @@
     </footer>
 </body>
 </html>
-
